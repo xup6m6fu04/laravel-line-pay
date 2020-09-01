@@ -17,6 +17,12 @@ CREATE TABLE `orders` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 ```
 
-說明：隨便串一下付款跟退款，讓整個交易流程包含退款可以跑一次。
+說明：隨便串一下付款跟退款，讓整個交易流程可以跑一次。
+
+.env.example 需填寫如下：
+```
+LINE_PAY_CHANNEL_ID=
+LINE_PAY_SECRET_KEY=
+```
 
 參考： https://github.com/yidas/line-pay-sdk-php
