@@ -1,7 +1,10 @@
 ## Laravel + Line Pay
 
 測試範例：https://linepay.inredis.com/line-pay/form
-使用方法：直接填入數量及金額送出後即可用手機掃描付款，付款成功後可以使用交易成功時出現的TransactionID測試退款
+
+使用方法：
+直接填入數量(必填)及金額(必填)送出後即可用手機掃描付款，
+付款成功後可以使用交易成功時出現的`TransactionID`測試退款
 
 SQL：
 
